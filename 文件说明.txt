@@ -1,0 +1,29 @@
+欢迎使用音速启动！
+1. 音速启动安装过程仅仅在注册表中生成一点点版本信息而已。
+2. 建议不要把音速启动放在系统盘，以免重装系统后数据丢失。
+3. 如果无法正常使用音速启动，请运行修复程序 vsRepair.exe 。
+4. 如果提示缺少运行库(VBRunTime)，可以到以下地址下载：
+   http://products.3lsoft.com/download/VBRuntime.exe
+
+--- 音速启动文件及其作用 ---
+
+VStart.exe	音速启动的主程序
+vsRepair.exe	音速启动修复程序
+
+vsEnFolder.exe	文件夹保护进程
+UpDate.exe	升级检查进程
+
+Readme.txt	说明文件
+
+Skin\		皮肤目录
+Plugins\	插件目录
+Icons\		图标目录
+Files\		该目录放置了一些必需文件
+User50\		用户数据目录，放置所有音速启动的数据。
+
+VIcon.idx	图标缓存索引文件，由程序自动生成
+VIcon.VDB	图标缓存文件，由程序自动生成
+
+备注：
+1. vsEnFolder.exe、UpDate.exe 这2个进程文件只能由音速启动自己调用。
+2. 您可以备份 User50 目录以实现音速启动数据的备份，另外音速启动的高级设置里面提供了方便的数据备份/恢复功能。
